@@ -59,7 +59,6 @@ products.forEach((product) => {
 
   const addToCartBtn = document.createElement("button");
   addToCartBtn.classList.add("addToCart-s");
-  addToCartBtn.id = `addToCart${product.id}`;
   addToCartBtn.textContent = "Add to cart";
   addToCartBtn.addEventListener('click', () => updateUi(product));
 
